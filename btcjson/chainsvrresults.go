@@ -432,6 +432,9 @@ type ScriptPubKeyResult struct {
 	ReqSigs   int32    `json:"reqSigs,omitempty"`
 	Type      string   `json:"type"`
 	Addresses []string `json:"addresses,omitempty"`
+	//! ************ Added for qtum support ******
+	Address string `json:"address,omitempty"`
+	//! *****************************************
 }
 
 // GetTxOutResult models the data from the gettxout command.
@@ -526,6 +529,11 @@ type Vin struct {
 	ScriptSig *ScriptSig `json:"scriptSig"`
 	Sequence  uint32     `json:"sequence"`
 	Witness   []string   `json:"txinwitness"`
+	//! ******** Added for qtum support ************
+	Amount        float64 `json:"value"`
+	AmountSatoshi int64   `json:"valueSat"`
+	Address       string  `json:"address"`
+	//! ********************************************
 }
 
 // IsCoinBase returns a bool to show if a Vin is a Coinbase one or not.
@@ -576,11 +584,21 @@ func (v *Vin) MarshalJSON() ([]byte, error) {
 		Vout      uint32     `json:"vout"`
 		ScriptSig *ScriptSig `json:"scriptSig"`
 		Sequence  uint32     `json:"sequence"`
+		//! ******** Added for qtum support ************
+		Address   string  `json:"address"`
+		Amount    float64 `json:"value"`
+		AmountSat int64   `json:"valueSat"`
+		//! ********************************************
 	}{
 		Txid:      v.Txid,
 		Vout:      v.Vout,
 		ScriptSig: v.ScriptSig,
 		Sequence:  v.Sequence,
+		//! ******** Added for qtum support ************
+		Address:   v.Address,
+		Amount:    v.Amount,
+		AmountSat: v.AmountSatoshi,
+		//! ********************************************
 	}
 	return json.Marshal(txStruct)
 }
@@ -667,6 +685,12 @@ type Vout struct {
 	Value        float64            `json:"value"`
 	N            uint32             `json:"n"`
 	ScriptPubKey ScriptPubKeyResult `json:"scriptPubKey"`
+	//! ******** Added for qtum support ************
+	AmountSatoshi int64  `json:"valueSat"`
+	SpentTxId     string `json:"spentTxId"`   // "e588141d2646fa6f1fd865ae141df476f6687e36d2f90e2e38caeb483fe5dbfb",
+	SpentIndex    uint32 `json:"spentIndex"`  //4,
+	SpentHeight   uint64 `json:"spentHeight"` // 792374
+	//! ********************************************
 }
 
 // GetMiningInfoResult models the data from the getmininginfo command.
