@@ -444,6 +444,9 @@ type GetTxOutResult struct {
 	Value         float64            `json:"value"`
 	ScriptPubKey  ScriptPubKeyResult `json:"scriptPubKey"`
 	Coinbase      bool               `json:"coinbase"`
+	//! ************ Added for qtum support ******
+	Coinstake bool `json:"coinstake"`
+	//! *****************************************
 }
 
 // GetTxOutSetInfoResult models the data from the gettxoutsetinfo command.
@@ -747,6 +750,8 @@ type TxRawResult struct {
 	Confirmations uint64 `json:"confirmations,omitempty"`
 	Time          int64  `json:"time,omitempty"`
 	Blocktime     int64  `json:"blocktime,omitempty"`
+	//! ******** Added for qtum support ************
+	Height uint64 `json:"height,omitempty"`
 }
 
 // SearchRawTransactionsResult models the data from the searchrawtransaction
