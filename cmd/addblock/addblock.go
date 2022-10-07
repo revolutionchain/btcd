@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/limits"
+	"github.com/alejoacosta74/btcd/blockchain"
+	"github.com/alejoacosta74/btcd/blockchain/indexers"
+	"github.com/alejoacosta74/btcd/database"
+	"github.com/alejoacosta74/btcd/limits"
 	"github.com/btcsuite/btclog"
 )
 

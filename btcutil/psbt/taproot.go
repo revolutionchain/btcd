@@ -2,9 +2,9 @@ package psbt
 
 import (
 	"bytes"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/alejoacosta74/btcd/btcec/v2/schnorr"
+	"github.com/alejoacosta74/btcd/txscript"
+	"github.com/alejoacosta74/btcd/wire"
 )
 
 const (

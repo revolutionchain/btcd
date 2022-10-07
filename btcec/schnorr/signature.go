@@ -5,8 +5,8 @@ package schnorr
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/alejoacosta74/btcd/btcec/v2"
+	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
 	ecdsa_schnorr "github.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
 )

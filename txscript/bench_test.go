@@ -10,8 +10,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/alejoacosta74/btcd/chaincfg"
+	"github.com/alejoacosta74/btcd/wire"
 )
 
 var (

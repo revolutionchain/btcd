@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/alejoacosta74/btcd/wire"
 )
 
 // GetBlockHeaderVerboseResult models the data from the getblockheader command when

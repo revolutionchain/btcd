@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
+	"github.com/alejoacosta74/btcd/wire"
 )
 
 // randAddr generates a *wire.NetAddressV2 backed by a random IPv4/IPv6
