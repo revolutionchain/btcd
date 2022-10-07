@@ -1,5 +1,15 @@
 module github.com/alejoacosta74/btcd
 
+replace github.com/alejoacosta74/btcd/btcec/v2 => ./btcec
+
+replace github.com/alejoacosta74/btcd v0.23.0 => ./
+
+replace github.com/alejoacosta74/btcd/btcutil v1.1.0 => ./btcutil
+
+replace github.com/alejoacosta74/btcd/chaincfg => ./chaincfg
+
+replace github.com/alejoacosta74/btcd/chaincfg/chainhash => ./chaincfg/chainhash
+
 require (
 	github.com/alejoacosta74/btcd/btcec/v2 v2.1.3
 	github.com/alejoacosta74/btcd/btcutil v1.1.0
@@ -27,8 +37,6 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
-
-replace github.com/alejoacosta74/btcd/btcutil => ./btcutil
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.
