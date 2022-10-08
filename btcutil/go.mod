@@ -2,10 +2,9 @@ module github.com/alejoacosta74/btcd/btcutil
 
 go 1.16
 
+replace github.com/alejoacosta74/btcd  => ../
 replace github.com/alejoacosta74/btcd/btcec/v2 => ../btcec
-replace github.com/alejoacosta74/btcd => ../
 replace github.com/alejoacosta74/btcd/chaincfg/chainhash => ../chaincfg/chainhash
-
 
 require (
 	github.com/aead/siphash v1.0.1

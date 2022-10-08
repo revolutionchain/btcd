@@ -1,11 +1,8 @@
 module github.com/alejoacosta74/btcd
 
 replace github.com/alejoacosta74/btcd/btcec/v2 => ./btcec
-
 replace github.com/alejoacosta74/btcd => ./
-
 replace github.com/alejoacosta74/btcd/btcutil => ./btcutil
-
 replace github.com/alejoacosta74/btcd/chaincfg/chainhash => ./chaincfg/chainhash
 
 require (

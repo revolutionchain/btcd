@@ -2,6 +2,8 @@ module github.com/alejoacosta74/btcd/btcec/v2
 
 go 1.17
 
+replace github.com/alejoacosta74/btcd/chaincfg/chainhash => ../chaincfg/chainhash
+
 require (
 	github.com/alejoacosta74/btcd/chaincfg/chainhash v1.0.1
 	github.com/davecgh/go-spew v1.1.1
