@@ -8,7 +8,7 @@ replace github.com/alejoacosta74/btcd/chaincfg/chainhash => ../chaincfg/chainhas
 
 require (
 	github.com/aead/siphash v1.0.1
-	github.com/alejoacosta74/btcd v0.23.0-qtum.221008
+	github.com/alejoacosta74/btcd v0.23.1-qtum.221008
 	github.com/alejoacosta74/btcd/btcec/v2 v2.2.22-qtum.221008
 	github.com/alejoacosta74/btcd/chaincfg/chainhash v1.0.1-qtum.221008
 	github.com/davecgh/go-spew v1.1.1
