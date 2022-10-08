@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/alejoacosta74/btcd v0.23.0
-	github.com/alejoacosta74/btcd/btcec/v2 v2.1.3
+	github.com/alejoacosta74/btcd/btcec v2.1.3
 	github.com/alejoacosta74/btcd/btcutil v1.1.0
 	github.com/alejoacosta74/btcd/chaincfg/chainhash v1.0.1
 	github.com/davecgh/go-spew v1.1.1

@@ -2,7 +2,7 @@ package psbt
 
 import (
 	"bytes"
-	"github.com/alejoacosta74/btcd/btcec/v2/schnorr"
+	"github.com/alejoacosta74/btcd/btcec/schnorr"
 	"github.com/alejoacosta74/btcd/txscript"
 	"github.com/alejoacosta74/btcd/wire"
 )

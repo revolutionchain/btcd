@@ -14,8 +14,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/btcec/v2"
-	"github.com/alejoacosta74/btcd/btcec/v2/schnorr"
+	"github.com/alejoacosta74/btcd/btcec"
+	"github.com/alejoacosta74/btcd/btcec/schnorr"
 	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )

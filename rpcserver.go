@@ -29,7 +29,7 @@ import (
 
 	"github.com/alejoacosta74/btcd/blockchain"
 	"github.com/alejoacosta74/btcd/blockchain/indexers"
-	"github.com/alejoacosta74/btcd/btcec/v2/ecdsa"
+	"github.com/alejoacosta74/btcd/btcec/ecdsa"
 	"github.com/alejoacosta74/btcd/btcjson"
 	"github.com/alejoacosta74/btcd/btcutil"
 	"github.com/alejoacosta74/btcd/chaincfg"

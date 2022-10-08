@@ -5,7 +5,7 @@
 package blockchain
 
 import (
-	"github.com/alejoacosta74/btcd/btcec/v2"
+	"github.com/alejoacosta74/btcd/btcec"
 	"github.com/alejoacosta74/btcd/txscript"
 )
 

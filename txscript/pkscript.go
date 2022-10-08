@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/alejoacosta74/btcd/btcec/v2"
-	"github.com/alejoacosta74/btcd/btcec/v2/ecdsa"
+	"github.com/alejoacosta74/btcd/btcec"
+	"github.com/alejoacosta74/btcd/btcec/ecdsa"
 	"github.com/alejoacosta74/btcd/btcutil"
 	"github.com/alejoacosta74/btcd/chaincfg"
 	"github.com/alejoacosta74/btcd/wire"
