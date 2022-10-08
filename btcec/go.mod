@@ -5,7 +5,7 @@ go 1.17
 replace github.com/alejoacosta74/btcd/chaincfg/chainhash => ../chaincfg/chainhash
 
 require (
-	github.com/alejoacosta74/btcd/chaincfg/chainhash v1.0.1
+	github.com/alejoacosta74/btcd/chaincfg/chainhash v1.0.1-qtum.221008
 	github.com/davecgh/go-spew v1.1.1
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1
 )
