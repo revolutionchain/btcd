@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/btcjson"
+	"github.com/qtumproject/btcd/btcjson"
 )
 
 // TestAssignField tests the assignField function handles supported combinations

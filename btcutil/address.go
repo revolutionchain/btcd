@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/alejoacosta74/btcd/btcec"
-	"github.com/alejoacosta74/btcd/btcutil/base58"
-	"github.com/alejoacosta74/btcd/btcutil/bech32"
-	"github.com/alejoacosta74/btcd/chaincfg"
+	"github.com/qtumproject/btcd/btcec"
+	"github.com/qtumproject/btcd/btcutil/base58"
+	"github.com/qtumproject/btcd/btcutil/bech32"
+	"github.com/qtumproject/btcd/chaincfg"
 	"golang.org/x/crypto/ripemd160"
 )
 

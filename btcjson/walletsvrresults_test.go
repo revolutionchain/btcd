@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/txscript"
+	"github.com/qtumproject/btcd/txscript"
 	"github.com/davecgh/go-spew/spew"
 )
 

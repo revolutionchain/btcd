@@ -1,9 +1,9 @@
 netsync
 =======
 
-[![Build Status](https://github.com/alejoacosta74/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/alejoacosta74/btcd/actions)
+[![Build Status](https://github.com/qtumproject/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/alejoacosta74/btcd/netsync)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/qtumproject/btcd/netsync)
 
 ## Overview
 
@@ -17,7 +17,7 @@ longest chain the sync peer is aware of.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/alejoacosta74/btcd/netsync
+$ go get -u github.com/qtumproject/btcd/netsync
 ```
 
 ## License

@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/alejoacosta74/btcd/txscript"
+	"github.com/qtumproject/btcd/txscript"
 )
 
 // CreateWalletResult models the result of the createwallet command.

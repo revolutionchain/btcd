@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/btcec"
+	"github.com/qtumproject/btcd/btcec"
 )
 
 type signatureTest struct {

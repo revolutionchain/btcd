@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/alejoacosta74/btcd/btcjson"
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/qtumproject/btcd/btcjson"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/btcutil"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a

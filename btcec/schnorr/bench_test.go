@@ -11,7 +11,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/btcec"
+	"github.com/qtumproject/btcd/btcec"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 

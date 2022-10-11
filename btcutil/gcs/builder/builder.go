@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/txscript"
-	"github.com/alejoacosta74/btcd/wire"
-	"github.com/alejoacosta74/btcd/btcutil/gcs"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/txscript"
+	"github.com/qtumproject/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil/gcs"
 )
 
 const (

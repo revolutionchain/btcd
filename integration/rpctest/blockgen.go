@@ -11,13 +11,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/alejoacosta74/btcd/blockchain"
-	"github.com/alejoacosta74/btcd/chaincfg"
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/mining"
-	"github.com/alejoacosta74/btcd/txscript"
-	"github.com/alejoacosta74/btcd/wire"
-	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/qtumproject/btcd/blockchain"
+	"github.com/qtumproject/btcd/chaincfg"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/mining"
+	"github.com/qtumproject/btcd/txscript"
+	"github.com/qtumproject/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil"
 )
 
 // solveBlock attempts to find a nonce which makes the passed block header hash

@@ -1,9 +1,9 @@
 btcec
 =====
 
-[![Build Status](https://github.com/alejoacosta74/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/alejoacosta74/btcd/actions)
+[![Build Status](https://github.com/qtumproject/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://pkg.go.dev/github.com/alejoacosta74/btcd/btcec?status.png)](https://pkg.go.dev/github.com/alejoacosta74/btcd/btcec)
+[![GoDoc](https://pkg.go.dev/github.com/qtumproject/btcd/btcec?status.png)](https://pkg.go.dev/github.com/qtumproject/btcd/btcec)
 
 Package btcec implements elliptic curve cryptography needed for working with
 Bitcoin (secp256k1 only for now). It is designed so that it may be used with the
@@ -20,16 +20,16 @@ use secp256k1 elliptic curve cryptography.
 ## Installation and Updating
 
 ```bash
-$ go install -u -v github.com/alejoacosta74/btcd/btcec
+$ go install -u -v github.com/qtumproject/btcd/btcec
 ```
 
 ## Examples
 
-* [Sign Message](https://pkg.go.dev/github.com/alejoacosta74/btcd/btcec#example-package--SignMessage)  
+* [Sign Message](https://pkg.go.dev/github.com/qtumproject/btcd/btcec#example-package--SignMessage)  
   Demonstrates signing a message with a secp256k1 private key that is first
   parsed form raw bytes and serializing the generated signature.
 
-* [Verify Signature](https://pkg.go.dev/github.com/alejoacosta74/btcd/btcec#example-package--VerifySignature)  
+* [Verify Signature](https://pkg.go.dev/github.com/qtumproject/btcd/btcec#example-package--VerifySignature)  
   Demonstrates verifying a secp256k1 signature against a public key that is
   first parsed from raw bytes.  The signature is also parsed from raw bytes.
 

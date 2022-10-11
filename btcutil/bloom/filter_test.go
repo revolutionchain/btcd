@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/wire"
-	"github.com/alejoacosta74/btcd/btcutil"
-	"github.com/alejoacosta74/btcd/btcutil/bloom"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil"
+	"github.com/qtumproject/btcd/btcutil/bloom"
 )
 
 // TestFilterLarge ensures a maximum sized filter can be created.

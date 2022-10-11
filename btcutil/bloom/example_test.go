@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/wire"
-	"github.com/alejoacosta74/btcd/btcutil/bloom"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil/bloom"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction

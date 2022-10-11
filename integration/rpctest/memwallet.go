@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/alejoacosta74/btcd/blockchain"
-	"github.com/alejoacosta74/btcd/btcec"
-	"github.com/alejoacosta74/btcd/btcutil"
-	"github.com/alejoacosta74/btcd/btcutil/hdkeychain"
-	"github.com/alejoacosta74/btcd/chaincfg"
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/rpcclient"
-	"github.com/alejoacosta74/btcd/txscript"
-	"github.com/alejoacosta74/btcd/wire"
+	"github.com/qtumproject/btcd/blockchain"
+	"github.com/qtumproject/btcd/btcec"
+	"github.com/qtumproject/btcd/btcutil"
+	"github.com/qtumproject/btcd/btcutil/hdkeychain"
+	"github.com/qtumproject/btcd/chaincfg"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/rpcclient"
+	"github.com/qtumproject/btcd/txscript"
+	"github.com/qtumproject/btcd/wire"
 )
 
 var (

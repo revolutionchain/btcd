@@ -10,9 +10,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/alejoacosta74/btcd/btcjson"
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/wire"
+	"github.com/qtumproject/btcd/btcjson"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/wire"
 )
 
 // FutureGetBestBlockHashResult is a future promise to deliver the result of a

@@ -6,7 +6,7 @@ package rpcclient
 
 import (
 	"fmt"
-	"github.com/alejoacosta74/btcd/btcjson"
+	"github.com/qtumproject/btcd/btcjson"
 )
 
 var connCfg = &ConnConfig{

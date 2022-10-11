@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/chaincfg"
-	"github.com/alejoacosta74/btcd/database"
-	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/qtumproject/btcd/chaincfg"
+	"github.com/qtumproject/btcd/database"
+	"github.com/qtumproject/btcd/btcutil"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

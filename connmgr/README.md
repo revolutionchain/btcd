@@ -1,9 +1,9 @@
 connmgr
 =======
 
-[![Build Status](https://github.com/alejoacosta74/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/alejoacosta74/btcd/actions)
+[![Build Status](https://github.com/qtumproject/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/alejoacosta74/btcd/connmgr)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/qtumproject/btcd/connmgr)
 
 Package connmgr implements a generic Bitcoin network connection manager.
 
@@ -29,7 +29,7 @@ In addition the connection manager provides the following utilities:
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/alejoacosta74/btcd/connmgr
+$ go get -u github.com/qtumproject/btcd/connmgr
 ```
 
 ## License

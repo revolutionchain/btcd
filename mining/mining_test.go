@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/qtumproject/btcd/btcutil"
 )
 
 // TestTxFeePrioHeap ensures the priority queue for transaction fees and

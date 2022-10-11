@@ -5,7 +5,7 @@
 package blockchain
 
 import (
-	"github.com/alejoacosta74/btcd/chaincfg"
+	"github.com/qtumproject/btcd/chaincfg"
 )
 
 const (

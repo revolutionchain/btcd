@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/alejoacosta74/btcd/chaincfg"
+	"github.com/qtumproject/btcd/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.

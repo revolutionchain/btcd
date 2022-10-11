@@ -8,7 +8,7 @@ package schnorr
 import (
 	"fmt"
 
-	"github.com/alejoacosta74/btcd/btcec"
+	"github.com/qtumproject/btcd/btcec"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 

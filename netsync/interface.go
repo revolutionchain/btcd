@@ -5,13 +5,13 @@
 package netsync
 
 import (
-	"github.com/alejoacosta74/btcd/blockchain"
-	"github.com/alejoacosta74/btcd/chaincfg"
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/mempool"
-	"github.com/alejoacosta74/btcd/peer"
-	"github.com/alejoacosta74/btcd/wire"
-	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/qtumproject/btcd/blockchain"
+	"github.com/qtumproject/btcd/chaincfg"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/mempool"
+	"github.com/qtumproject/btcd/peer"
+	"github.com/qtumproject/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil"
 )
 
 // PeerNotifier exposes methods to notify peers of status changes to

@@ -9,13 +9,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/alejoacosta74/btcd/btcutil"
-	"github.com/alejoacosta74/btcd/btcutil/gcs"
-	"github.com/alejoacosta74/btcd/btcutil/gcs/builder"
-	"github.com/alejoacosta74/btcd/chaincfg"
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/txscript"
-	"github.com/alejoacosta74/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil"
+	"github.com/qtumproject/btcd/btcutil/gcs"
+	"github.com/qtumproject/btcd/btcutil/gcs/builder"
+	"github.com/qtumproject/btcd/chaincfg"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/txscript"
+	"github.com/qtumproject/btcd/wire"
 )
 
 var (

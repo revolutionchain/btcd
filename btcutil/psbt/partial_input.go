@@ -6,8 +6,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/alejoacosta74/btcd/txscript"
-	"github.com/alejoacosta74/btcd/wire"
+	"github.com/qtumproject/btcd/txscript"
+	"github.com/qtumproject/btcd/wire"
 )
 
 // PInput is a struct encapsulating all the data that can be attached to any

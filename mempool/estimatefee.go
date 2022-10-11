@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/mining"
-	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/mining"
+	"github.com/qtumproject/btcd/btcutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model
@@ -279,7 +279,7 @@ func (ef *FeeEstimator) RegisterBlock(block *btcutil.Block) error {
 		// Also check that blocksToConfirm is not negative as this causes
 		// the node to crash on reorgs.  A tx that was observed at height X
 		// might be included in heights less than X because of chain reorgs.
-		// Refer to github.com/alejoacosta74/btcd/issues/1660 for more information.
+		// Refer to github.com/qtumproject/btcd/issues/1660 for more information.
 		//
 		// TODO(kcalvinalvin) a better design that doesn't just skip over the
 		// transaction would result in a more accurate fee estimator.  Properly

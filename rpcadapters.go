@@ -7,13 +7,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/alejoacosta74/btcd/blockchain"
-	"github.com/alejoacosta74/btcd/chaincfg/chainhash"
-	"github.com/alejoacosta74/btcd/mempool"
-	"github.com/alejoacosta74/btcd/netsync"
-	"github.com/alejoacosta74/btcd/peer"
-	"github.com/alejoacosta74/btcd/wire"
-	"github.com/alejoacosta74/btcd/btcutil"
+	"github.com/qtumproject/btcd/blockchain"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/mempool"
+	"github.com/qtumproject/btcd/netsync"
+	"github.com/qtumproject/btcd/peer"
+	"github.com/qtumproject/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

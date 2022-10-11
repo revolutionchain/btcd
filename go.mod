@@ -1,7 +1,7 @@
-module github.com/alejoacosta74/btcd
+module github.com/qtumproject/btcd
 
 
-replace github.com/alejoacosta74/btcd => ./
+replace github.com/qtumproject/btcd => ./
 
 
 require (

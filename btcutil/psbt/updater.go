@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"crypto/sha256"
 
-	"github.com/alejoacosta74/btcd/btcutil"
-	"github.com/alejoacosta74/btcd/txscript"
-	"github.com/alejoacosta74/btcd/wire"
+	"github.com/qtumproject/btcd/btcutil"
+	"github.com/qtumproject/btcd/txscript"
+	"github.com/qtumproject/btcd/wire"
 )
 
 // Updater encapsulates the role 'Updater' as specified in BIP174; it accepts
