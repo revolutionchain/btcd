@@ -234,69 +234,74 @@ const (
 	OP_UNKNOWN190          = 0xbe // 190
 	OP_UNKNOWN191          = 0xbf // 191
 	OP_UNKNOWN192          = 0xc0 // 192
-	OP_UNKNOWN193          = 0xc1 // 193
-	OP_UNKNOWN194          = 0xc2 // 194
-	OP_UNKNOWN195          = 0xc3 // 195
-	OP_UNKNOWN196          = 0xc4 // 196
-	OP_UNKNOWN197          = 0xc5 // 197
-	OP_UNKNOWN198          = 0xc6 // 198
-	OP_UNKNOWN199          = 0xc7 // 199
-	OP_UNKNOWN200          = 0xc8 // 200
-	OP_UNKNOWN201          = 0xc9 // 201
-	OP_UNKNOWN202          = 0xca // 202
-	OP_UNKNOWN203          = 0xcb // 203
-	OP_UNKNOWN204          = 0xcc // 204
-	OP_UNKNOWN205          = 0xcd // 205
-	OP_UNKNOWN206          = 0xce // 206
-	OP_UNKNOWN207          = 0xcf // 207
-	OP_UNKNOWN208          = 0xd0 // 208
-	OP_UNKNOWN209          = 0xd1 // 209
-	OP_UNKNOWN210          = 0xd2 // 210
-	OP_UNKNOWN211          = 0xd3 // 211
-	OP_UNKNOWN212          = 0xd4 // 212
-	OP_UNKNOWN213          = 0xd5 // 213
-	OP_UNKNOWN214          = 0xd6 // 214
-	OP_UNKNOWN215          = 0xd7 // 215
-	OP_UNKNOWN216          = 0xd8 // 216
-	OP_UNKNOWN217          = 0xd9 // 217
-	OP_UNKNOWN218          = 0xda // 218
-	OP_UNKNOWN219          = 0xdb // 219
-	OP_UNKNOWN220          = 0xdc // 220
-	OP_UNKNOWN221          = 0xdd // 221
-	OP_UNKNOWN222          = 0xde // 222
-	OP_UNKNOWN223          = 0xdf // 223
-	OP_UNKNOWN224          = 0xe0 // 224
-	OP_UNKNOWN225          = 0xe1 // 225
-	OP_UNKNOWN226          = 0xe2 // 226
-	OP_UNKNOWN227          = 0xe3 // 227
-	OP_UNKNOWN228          = 0xe4 // 228
-	OP_UNKNOWN229          = 0xe5 // 229
-	OP_UNKNOWN230          = 0xe6 // 230
-	OP_UNKNOWN231          = 0xe7 // 231
-	OP_UNKNOWN232          = 0xe8 // 232
-	OP_UNKNOWN233          = 0xe9 // 233
-	OP_UNKNOWN234          = 0xea // 234
-	OP_UNKNOWN235          = 0xeb // 235
-	OP_UNKNOWN236          = 0xec // 236
-	OP_UNKNOWN237          = 0xed // 237
-	OP_UNKNOWN238          = 0xee // 238
-	OP_UNKNOWN239          = 0xef // 239
-	OP_UNKNOWN240          = 0xf0 // 240
-	OP_UNKNOWN241          = 0xf1 // 241
-	OP_UNKNOWN242          = 0xf2 // 242
-	OP_UNKNOWN243          = 0xf3 // 243
-	OP_UNKNOWN244          = 0xf4 // 244
-	OP_UNKNOWN245          = 0xf5 // 245
-	OP_UNKNOWN246          = 0xf6 // 246
-	OP_UNKNOWN247          = 0xf7 // 247
-	OP_UNKNOWN248          = 0xf8 // 248
-	OP_UNKNOWN249          = 0xf9 // 249
-	OP_SMALLINTEGER        = 0xfa // 250 - bitcoin core internal
-	OP_PUBKEYS             = 0xfb // 251 - bitcoin core internal
-	OP_UNKNOWN252          = 0xfc // 252
-	OP_PUBKEYHASH          = 0xfd // 253 - bitcoin core internal
-	OP_PUBKEY              = 0xfe // 254 - bitcoin core internal
-	OP_INVALIDOPCODE       = 0xff // 255 - bitcoin core internal
+	// qtum extended opcodes
+	//     OP_CREATE = 0xc1,
+	//     OP_CALL = 0xc2,
+	//     OP_SPEND = 0xc3,
+	//     OP_SENDER = 0xc4,
+	OP_CREATE        = 0xc1 // 193 (btc original OP_UNKNOWN193 )
+	OP_CALL          = 0xc2 // 194 (btc original OP_UNKNOWN194 )
+	OP_SPEND         = 0xc3 // 195 (btc original OP_UNKNOWN195)
+	OP_SENDER        = 0xc4 // 196 (btc original OP_UNKNOWN196)
+	OP_UNKNOWN197    = 0xc5 // 197
+	OP_UNKNOWN198    = 0xc6 // 198
+	OP_UNKNOWN199    = 0xc7 // 199
+	OP_UNKNOWN200    = 0xc8 // 200
+	OP_UNKNOWN201    = 0xc9 // 201
+	OP_UNKNOWN202    = 0xca // 202
+	OP_UNKNOWN203    = 0xcb // 203
+	OP_UNKNOWN204    = 0xcc // 204
+	OP_UNKNOWN205    = 0xcd // 205
+	OP_UNKNOWN206    = 0xce // 206
+	OP_UNKNOWN207    = 0xcf // 207
+	OP_UNKNOWN208    = 0xd0 // 208
+	OP_UNKNOWN209    = 0xd1 // 209
+	OP_UNKNOWN210    = 0xd2 // 210
+	OP_UNKNOWN211    = 0xd3 // 211
+	OP_UNKNOWN212    = 0xd4 // 212
+	OP_UNKNOWN213    = 0xd5 // 213
+	OP_UNKNOWN214    = 0xd6 // 214
+	OP_UNKNOWN215    = 0xd7 // 215
+	OP_UNKNOWN216    = 0xd8 // 216
+	OP_UNKNOWN217    = 0xd9 // 217
+	OP_UNKNOWN218    = 0xda // 218
+	OP_UNKNOWN219    = 0xdb // 219
+	OP_UNKNOWN220    = 0xdc // 220
+	OP_UNKNOWN221    = 0xdd // 221
+	OP_UNKNOWN222    = 0xde // 222
+	OP_UNKNOWN223    = 0xdf // 223
+	OP_UNKNOWN224    = 0xe0 // 224
+	OP_UNKNOWN225    = 0xe1 // 225
+	OP_UNKNOWN226    = 0xe2 // 226
+	OP_UNKNOWN227    = 0xe3 // 227
+	OP_UNKNOWN228    = 0xe4 // 228
+	OP_UNKNOWN229    = 0xe5 // 229
+	OP_UNKNOWN230    = 0xe6 // 230
+	OP_UNKNOWN231    = 0xe7 // 231
+	OP_UNKNOWN232    = 0xe8 // 232
+	OP_UNKNOWN233    = 0xe9 // 233
+	OP_UNKNOWN234    = 0xea // 234
+	OP_UNKNOWN235    = 0xeb // 235
+	OP_UNKNOWN236    = 0xec // 236
+	OP_UNKNOWN237    = 0xed // 237
+	OP_UNKNOWN238    = 0xee // 238
+	OP_UNKNOWN239    = 0xef // 239
+	OP_UNKNOWN240    = 0xf0 // 240
+	OP_UNKNOWN241    = 0xf1 // 241
+	OP_UNKNOWN242    = 0xf2 // 242
+	OP_UNKNOWN243    = 0xf3 // 243
+	OP_UNKNOWN244    = 0xf4 // 244
+	OP_UNKNOWN245    = 0xf5 // 245
+	OP_UNKNOWN246    = 0xf6 // 246
+	OP_UNKNOWN247    = 0xf7 // 247
+	OP_UNKNOWN248    = 0xf8 // 248
+	OP_UNKNOWN249    = 0xf9 // 249
+	OP_SMALLINTEGER  = 0xfa // 250 - bitcoin core internal
+	OP_PUBKEYS       = 0xfb // 251 - bitcoin core internal
+	OP_UNKNOWN252    = 0xfc // 252
+	OP_PUBKEYHASH    = 0xfd // 253 - bitcoin core internal
+	OP_PUBKEY        = 0xfe // 254 - bitcoin core internal
+	OP_INVALIDOPCODE = 0xff // 255 - bitcoin core internal
 )
 
 // Conditional execution constants.
@@ -520,10 +525,10 @@ var opcodeArray = [256]opcode{
 	OP_UNKNOWN190: {OP_UNKNOWN190, "OP_UNKNOWN190", 1, opcodeInvalid},
 	OP_UNKNOWN191: {OP_UNKNOWN191, "OP_UNKNOWN191", 1, opcodeInvalid},
 	OP_UNKNOWN192: {OP_UNKNOWN192, "OP_UNKNOWN192", 1, opcodeInvalid},
-	OP_UNKNOWN193: {OP_UNKNOWN193, "OP_UNKNOWN193", 1, opcodeInvalid},
-	OP_UNKNOWN194: {OP_UNKNOWN194, "OP_UNKNOWN194", 1, opcodeInvalid},
-	OP_UNKNOWN195: {OP_UNKNOWN195, "OP_UNKNOWN195", 1, opcodeInvalid},
-	OP_UNKNOWN196: {OP_UNKNOWN196, "OP_UNKNOWN196", 1, opcodeInvalid},
+	// OP_UNKNOWN193: {OP_UNKNOWN193, "OP_UNKNOWN193", 1, opcodeInvalid},
+	// OP_UNKNOWN194: {OP_UNKNOWN194, "OP_UNKNOWN194", 1, opcodeInvalid},
+	// OP_UNKNOWN195: {OP_UNKNOWN195, "OP_UNKNOWN195", 1, opcodeInvalid},
+	// OP_UNKNOWN196: {OP_UNKNOWN196, "OP_UNKNOWN196", 1, opcodeInvalid},
 	OP_UNKNOWN197: {OP_UNKNOWN197, "OP_UNKNOWN197", 1, opcodeInvalid},
 	OP_UNKNOWN198: {OP_UNKNOWN198, "OP_UNKNOWN198", 1, opcodeInvalid},
 	OP_UNKNOWN199: {OP_UNKNOWN199, "OP_UNKNOWN199", 1, opcodeInvalid},
@@ -586,6 +591,16 @@ var opcodeArray = [256]opcode{
 	OP_PUBKEY:       {OP_PUBKEY, "OP_PUBKEY", 1, opcodeInvalid},
 
 	OP_INVALIDOPCODE: {OP_INVALIDOPCODE, "OP_INVALIDOPCODE", 1, opcodeInvalid},
+
+	// qtum extended opcodes
+	//     OP_CREATE = 0xc1,
+	//     OP_CALL = 0xc2,
+	//     OP_SPEND = 0xc3,
+	//     OP_SENDER = 0xc4,
+	OP_CREATE: {OP_CREATE, "OP_CREATE", 1, opcodePushData},
+	OP_CALL:   {OP_CALL, "OP_CALL", 1, opcodePushData},
+	OP_SPEND:  {OP_SPEND, "OP_SPEND", 1, opcodePushData},
+	OP_SENDER: {OP_SENDER, "OP_SENDER", 1, opcodePushData},
 }
 
 // opcodeOnelineRepls defines opcode names which are replaced when doing a
@@ -617,35 +632,35 @@ var opcodeOnelineRepls = map[string]string{
 // codes that cause execution to automatically succeed. This map is used to
 // quickly look up the op codes during script pre-processing.
 var successOpcodes = map[byte]struct{}{
-	OP_RESERVED:     {}, // 80
-	OP_VER:          {}, // 98
-	OP_CAT:          {}, // 126
-	OP_SUBSTR:       {}, // 127
-	OP_LEFT:         {}, // 128
-	OP_RIGHT:        {}, // 129
-	OP_INVERT:       {}, // 131
-	OP_AND:          {}, // 132
-	OP_OR:           {}, // 133
-	OP_XOR:          {}, // 134
-	OP_RESERVED1:    {}, // 137
-	OP_RESERVED2:    {}, // 138
-	OP_2MUL:         {}, // 141
-	OP_2DIV:         {}, // 142
-	OP_MUL:          {}, // 149
-	OP_DIV:          {}, // 150
-	OP_MOD:          {}, // 151
-	OP_LSHIFT:       {}, // 152
-	OP_RSHIFT:       {}, // 153
-	OP_UNKNOWN187:   {}, // 187
-	OP_UNKNOWN188:   {}, // 188
-	OP_UNKNOWN189:   {}, // 189
-	OP_UNKNOWN190:   {}, // 190
-	OP_UNKNOWN191:   {}, // 191
-	OP_UNKNOWN192:   {}, // 192
-	OP_UNKNOWN193:   {}, // 193
-	OP_UNKNOWN194:   {}, // 194
-	OP_UNKNOWN195:   {}, // 195
-	OP_UNKNOWN196:   {}, // 196
+	OP_RESERVED:   {}, // 80
+	OP_VER:        {}, // 98
+	OP_CAT:        {}, // 126
+	OP_SUBSTR:     {}, // 127
+	OP_LEFT:       {}, // 128
+	OP_RIGHT:      {}, // 129
+	OP_INVERT:     {}, // 131
+	OP_AND:        {}, // 132
+	OP_OR:         {}, // 133
+	OP_XOR:        {}, // 134
+	OP_RESERVED1:  {}, // 137
+	OP_RESERVED2:  {}, // 138
+	OP_2MUL:       {}, // 141
+	OP_2DIV:       {}, // 142
+	OP_MUL:        {}, // 149
+	OP_DIV:        {}, // 150
+	OP_MOD:        {}, // 151
+	OP_LSHIFT:     {}, // 152
+	OP_RSHIFT:     {}, // 153
+	OP_UNKNOWN187: {}, // 187
+	OP_UNKNOWN188: {}, // 188
+	OP_UNKNOWN189: {}, // 189
+	OP_UNKNOWN190: {}, // 190
+	OP_UNKNOWN191: {}, // 191
+	OP_UNKNOWN192: {}, // 192
+	// OP_UNKNOWN193: {}, // 193
+	// OP_UNKNOWN194:   {}, // 194
+	// OP_UNKNOWN195: {}, // 195
+	// OP_UNKNOWN196:   {}, // 196
 	OP_UNKNOWN197:   {}, // 197
 	OP_UNKNOWN198:   {}, // 198
 	OP_UNKNOWN199:   {}, // 199

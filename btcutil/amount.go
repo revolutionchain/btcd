@@ -33,19 +33,19 @@ const (
 func (u AmountUnit) String() string {
 	switch u {
 	case AmountMegaBTC:
-		return "MBTC"
+		return "MQTUM"
 	case AmountKiloBTC:
-		return "kBTC"
+		return "kQTUM"
 	case AmountBTC:
-		return "BTC"
+		return "QTUM"
 	case AmountMilliBTC:
-		return "mBTC"
+		return "mQTUM"
 	case AmountMicroBTC:
-		return "μBTC"
+		return "μQTUM"
 	case AmountSatoshi:
 		return "Satoshi"
 	default:
-		return "1e" + strconv.FormatInt(int64(u), 10) + " BTC"
+		return "1e" + strconv.FormatInt(int64(u), 10) + " QTUM"
 	}
 }
 
