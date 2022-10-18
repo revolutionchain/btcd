@@ -7,11 +7,11 @@ package txscript
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/qtumproject/btcd/btcec/v2"
+	"github.com/qtumproject/btcd/btcec/v2/ecdsa"
+	"github.com/qtumproject/btcd/btcec/v2/schnorr"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/wire"
 )
 
 // signatureVerifier is an abstract interface that allows the op code execution

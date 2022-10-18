@@ -8,9 +8,9 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/qtumproject/btcd/btcec/v2"
+	"github.com/qtumproject/btcd/btcec/v2/schnorr"
+	"github.com/qtumproject/btcd/chaincfg/chainhash"
 )
 
 const (
