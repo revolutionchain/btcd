@@ -164,15 +164,25 @@ const (
 
 	// SimNet represents the simulation test network.
 	SimNet BitcoinNet = 0x12141c16
+
+	//! Qtum specific data
+	//TODO: check if this is correct
+	QtumMainnet BitcoinNet = 0xfbc0b6db
+	QtumTestnet BitcoinNet = 0xfcc1b7dc
+	QtumRegtest BitcoinNet = 0xfdc2b8dd
+	//! ***************
 )
 
 // bnStrings is a map of bitcoin networks back to their constant names for
 // pretty printing.
 var bnStrings = map[BitcoinNet]string{
-	MainNet:  "MainNet",
-	TestNet:  "TestNet",
-	TestNet3: "TestNet3",
-	SimNet:   "SimNet",
+	MainNet:     "MainNet",
+	TestNet:     "TestNet",
+	TestNet3:    "TestNet3",
+	SimNet:      "SimNet",
+	QtumMainnet: "mainnet",
+	QtumTestnet: "testnet",
+	QtumRegtest: "regtest",
 }
 
 // String returns the BitcoinNet in human-readable form.
