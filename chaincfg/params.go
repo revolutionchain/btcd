@@ -270,6 +270,36 @@ type Params struct {
 	HDCoinType uint32
 }
 
+// ! *** Added for Qtum project support ***
+var QtumMainnetParams = Params{
+	Name:             "qtum",
+	Net:              wire.QtumMainnet,
+	DefaultPort:      "3889",
+	PubKeyHashAddrID: 0x3a,
+	ScriptHashAddrID: 0x32,
+	PrivateKeyID:     0x80,
+}
+
+var QtumTestnetParams = Params{
+	Name:             "qtum",
+	Net:              wire.QtumTestnet,
+	DefaultPort:      "13889",
+	PubKeyHashAddrID: 0x78,
+	ScriptHashAddrID: 0x6e,
+	PrivateKeyID:     0xEF,
+}
+
+var QtumRegtestParams = Params{
+	Name:             "qtum",
+	Net:              wire.QtumRegtest,
+	DefaultPort:      "13889",
+	PubKeyHashAddrID: 0x78,
+	ScriptHashAddrID: 0x6e,
+	PrivateKeyID:     0xEF,
+}
+
+//! ***************************
+
 // MainNetParams defines the network parameters for the main Bitcoin network.
 var MainNetParams = Params{
 	Name:        "mainnet",
@@ -993,8 +1023,9 @@ func IsBech32SegwitPrefix(prefix string) bool {
 // ErrInvalidHDKeyID error will be returned.
 //
 // Reference:
-//   SLIP-0132 : Registered HD version bytes for BIP-0032
-//   https://github.com/satoshilabs/slips/blob/master/slip-0132.md
+//
+//	SLIP-0132 : Registered HD version bytes for BIP-0032
+//	https://github.com/satoshilabs/slips/blob/master/slip-0132.md
 func RegisterHDKeyID(hdPublicKeyID []byte, hdPrivateKeyID []byte) error {
 	if len(hdPublicKeyID) != 4 || len(hdPrivateKeyID) != 4 {
 		return ErrInvalidHDKeyID
