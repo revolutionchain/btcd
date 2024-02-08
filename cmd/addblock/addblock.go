@@ -8,11 +8,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/blockchain/indexers"
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/limits"
 	"github.com/btcsuite/btclog"
+	"github.com/revolutionchain/btcd/blockchain"
+	"github.com/revolutionchain/btcd/blockchain/indexers"
+	"github.com/revolutionchain/btcd/database"
+	"github.com/revolutionchain/btcd/limits"
 )
 
 const (

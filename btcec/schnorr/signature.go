@@ -5,10 +5,10 @@ package schnorr
 import (
 	"fmt"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
 	ecdsa_schnorr "github.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
 )
 
 const (
@@ -51,8 +51,9 @@ func NewSignature(r *btcec.FieldVal, s *btcec.ModNScalar) *Signature {
 // Serialize returns the Schnorr signature in the more strict format.
 //
 // The signatures are encoded as
-//   sig[0:32]  x coordinate of the point R, encoded as a big-endian uint256
-//   sig[32:64] s, encoded also as big-endian uint256
+//
+//	sig[0:32]  x coordinate of the point R, encoded as a big-endian uint256
+//	sig[32:64] s, encoded also as big-endian uint256
 func (sig Signature) Serialize() []byte {
 	// Total length of returned signature is the length of r and s.
 	var b [SignatureSize]byte

@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
 	"github.com/btcsuite/btclog"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/txscript"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 const (

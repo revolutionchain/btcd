@@ -17,9 +17,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // scriptTestName returns a descriptive test name for the given reference script

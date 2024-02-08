@@ -18,13 +18,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/revolutionchain/btcd/blockchain"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/txscript"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 const (
@@ -466,9 +466,9 @@ func createSpendTxForTx(tx *wire.MsgTx, fee btcutil.Amount) *wire.MsgTx {
 // - A coinbase that pays the required subsidy to an OP_TRUE script
 // - When a spendable output is provided:
 //   - A transaction that spends from the provided output the following outputs:
-//     - One that pays the inputs amount minus 1 atom to an OP_TRUE script
-//     - One that contains an OP_RETURN output with a random uint64 in order to
-//       ensure the transaction has a unique hash
+//   - One that pays the inputs amount minus 1 atom to an OP_TRUE script
+//   - One that contains an OP_RETURN output with a random uint64 in order to
+//     ensure the transaction has a unique hash
 //
 // Additionally, if one or more munge functions are specified, they will be
 // invoked with the block prior to solving it.  This provides callers with the

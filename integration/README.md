@@ -1,11 +1,11 @@
 integration
 ===========
 
-[![Build Status](https://github.com/qtumproject/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/actions)
+[![Build Status](https://github.com/revolutionchain/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/revolutionchain/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 This contains integration tests which make use of the
-[rpctest](https://github.com/qtumproject/btcd/tree/master/integration/rpctest)
+[rpctest](https://github.com/revolutionchain/btcd/tree/master/integration/rpctest)
 package to programmatically drive nodes via RPC.
 
 ## License

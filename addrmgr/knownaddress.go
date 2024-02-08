@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // KnownAddress tracks information about a known network address that is used

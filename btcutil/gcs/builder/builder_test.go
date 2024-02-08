@@ -9,13 +9,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/btcutil/gcs"
-	"github.com/qtumproject/btcd/btcutil/gcs/builder"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil/gcs"
+	"github.com/revolutionchain/btcd/btcutil/gcs/builder"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/txscript"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 var (

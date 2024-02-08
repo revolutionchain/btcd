@@ -17,8 +17,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/chaincfg"
 	secp_ecdsa "github.com/decred/dcrd/dcrec/secp256k1/v4"
+	"github.com/revolutionchain/btcd/chaincfg"
 )
 
 // TestBIP0032Vectors tests the vectors provided by [BIP32] to ensure the
@@ -1095,7 +1095,8 @@ func TestMaximumDepth(t *testing.T) {
 // extended keys.
 //
 // The following tool was used for generating the tests:
-//   https://jlopp.github.io/xpub-converter
+//
+//	https://jlopp.github.io/xpub-converter
 func TestCloneWithVersion(t *testing.T) {
 	tests := []struct {
 		name    string

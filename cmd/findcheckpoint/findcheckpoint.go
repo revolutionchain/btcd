@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/database"
+	"github.com/revolutionchain/btcd/blockchain"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/database"
 )
 
 const blockDbNamePrefix = "blocks"

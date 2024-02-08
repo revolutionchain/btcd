@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qtumproject/btcd/btcutil"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/revolutionchain/btcd/btcutil"
 )
 
 type config struct {

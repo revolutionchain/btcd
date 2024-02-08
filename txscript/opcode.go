@@ -16,10 +16,10 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcec/v2/ecdsa"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/btcec/v2/ecdsa"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if

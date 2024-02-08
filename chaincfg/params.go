@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default

@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcjson"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/btcjson"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

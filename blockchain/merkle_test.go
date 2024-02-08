@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil"
 )
 
 // TestMerkle tests the BuildMerkleTreeStore API.

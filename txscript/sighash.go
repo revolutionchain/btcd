@@ -13,8 +13,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // SigHashType represents hash type bits at the end of a signature.

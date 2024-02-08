@@ -11,11 +11,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/database"
-	_ "github.com/qtumproject/btcd/database/ffldb"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/database"
+	_ "github.com/revolutionchain/btcd/database/ffldb"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // This example demonstrates creating a new database.
@@ -23,8 +23,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/qtumproject/btcd/database"
-	// 	_ "github.com/qtumproject/btcd/database/ffldb"
+	// 	"github.com/revolutionchain/btcd/database"
+	// 	_ "github.com/revolutionchain/btcd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -49,8 +49,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/qtumproject/btcd/database"
-	// 	_ "github.com/qtumproject/btcd/database/ffldb"
+	// 	"github.com/revolutionchain/btcd/database"
+	// 	_ "github.com/revolutionchain/btcd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -115,8 +115,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/qtumproject/btcd/database"
-	// 	_ "github.com/qtumproject/btcd/database/ffldb"
+	// 	"github.com/revolutionchain/btcd/database"
+	// 	_ "github.com/revolutionchain/btcd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

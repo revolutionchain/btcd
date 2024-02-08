@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil"
 	//"github.com/davecgh/go-spew/spew"
 )
 

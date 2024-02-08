@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcjson"
+	"github.com/revolutionchain/btcd/btcjson"
 )
 
 // TestWalletSvrWsCmds tests all of the wallet server websocket-specific

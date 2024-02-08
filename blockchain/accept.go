@@ -7,8 +7,8 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/database"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

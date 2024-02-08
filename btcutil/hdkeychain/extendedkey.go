@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/btcutil/base58"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil/base58"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
 )
 
 const (
@@ -517,8 +517,9 @@ func (k *ExtendedKey) Neuter() (*ExtendedKey, error) {
 // on the SLIP132 standard (serializable to yprv/ypub, zprv/zpub, etc.).
 //
 // References:
-//   [SLIP132]: SLIP-0132 - Registered HD version bytes for BIP-0032
-//   https://github.com/satoshilabs/slips/blob/master/slip-0132.md
+//
+//	[SLIP132]: SLIP-0132 - Registered HD version bytes for BIP-0032
+//	https://github.com/satoshilabs/slips/blob/master/slip-0132.md
 func (k *ExtendedKey) CloneWithVersion(version []byte) (*ExtendedKey, error) {
 	if len(version) != 4 {
 		// TODO: The semantically correct error to return here is

@@ -8,9 +8,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcec/v2/ecdsa"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/btcec/v2/ecdsa"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

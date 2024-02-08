@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/database"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 const (

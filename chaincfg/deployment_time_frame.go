@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 var (

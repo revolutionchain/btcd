@@ -12,10 +12,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/qtumproject/btcd/btcjson"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcjson"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a
@@ -56,7 +56,8 @@ func (c *Client) DebugLevelAsync(levelSpec string) FutureDebugLevelResult {
 // specification.
 //
 // The levelspec can be either a debug level or of the form:
-// 	<subsystem>=<level>,<subsystem2>=<level2>,...
+//
+//	<subsystem>=<level>,<subsystem2>=<level2>,...
 //
 // Additionally, the special keyword 'show' can be used to get a list of the
 // available subsystems.

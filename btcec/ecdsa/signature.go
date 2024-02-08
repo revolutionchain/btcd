@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/qtumproject/btcd/btcec/v2"
 	secp_ecdsa "github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
+	"github.com/revolutionchain/btcd/btcec/v2"
 )
 
 // Errors returned by canonicalPadding.

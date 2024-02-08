@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/txscript"
+	"github.com/revolutionchain/btcd/wire"
 	"github.com/stretchr/testify/require"
 )
 

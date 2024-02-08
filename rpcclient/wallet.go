@@ -8,11 +8,11 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/qtumproject/btcd/btcjson"
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/btcjson"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // *****************************
@@ -1016,10 +1016,10 @@ func (c *Client) CreateWalletAsync(name string, opts ...CreateWalletOpt) FutureC
 //
 // Optional parameters can be specified using functional-options pattern. The
 // following functions are available:
-//   * WithCreateWalletDisablePrivateKeys
-//   * WithCreateWalletBlank
-//   * WithCreateWalletPassphrase
-//   * WithCreateWalletAvoidReuse
+//   - WithCreateWalletDisablePrivateKeys
+//   - WithCreateWalletBlank
+//   - WithCreateWalletPassphrase
+//   - WithCreateWalletAvoidReuse
 func (c *Client) CreateWallet(name string, opts ...CreateWalletOpt) (*btcjson.CreateWalletResult, error) {
 	return c.CreateWalletAsync(name, opts...).Receive()
 }

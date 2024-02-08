@@ -9,9 +9,9 @@ import (
 
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcec/v2/schnorr"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/btcec/v2/schnorr"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
 )
 
 var (
@@ -72,7 +72,7 @@ func sortKeys(keys []*btcec.PublicKey) []*btcec.PublicKey {
 // keyHashFingerprint computes the tagged hash of the series of (sorted) public
 // keys passed as input. This is used to compute the aggregation coefficient
 // for each key. The final computation is:
-//   * H(tag=KeyAgg list, pk1 || pk2..)
+//   - H(tag=KeyAgg list, pk1 || pk2..)
 func keyHashFingerprint(keys []*btcec.PublicKey, sort bool) []byte {
 	if sort {
 		keys = sortKeys(keys)
@@ -101,7 +101,7 @@ func keyBytesEqual(a, b *btcec.PublicKey) bool {
 
 // aggregationCoefficient computes the key aggregation coefficient for the
 // specified target key. The coefficient is computed as:
-//  * H(tag=KeyAgg coefficient, keyHashFingerprint(pks) || pk)
+//   - H(tag=KeyAgg coefficient, keyHashFingerprint(pks) || pk)
 func aggregationCoefficient(keySet []*btcec.PublicKey,
 	targetKey *btcec.PublicKey, keysHash []byte,
 	secondKeyIdx int) *btcec.ModNScalar {

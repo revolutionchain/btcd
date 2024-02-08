@@ -21,18 +21,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/connmgr"
-	"github.com/qtumproject/btcd/database"
-	_ "github.com/qtumproject/btcd/database/ffldb"
-	"github.com/qtumproject/btcd/mempool"
-	"github.com/qtumproject/btcd/peer"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
 	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/revolutionchain/btcd/blockchain"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/connmgr"
+	"github.com/revolutionchain/btcd/database"
+	_ "github.com/revolutionchain/btcd/database/ffldb"
+	"github.com/revolutionchain/btcd/mempool"
+	"github.com/revolutionchain/btcd/peer"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 const (
@@ -402,10 +402,10 @@ func newConfigParser(cfg *config, so *serviceOptions, options flags.Options) *fl
 // line options.
 //
 // The configuration proceeds as follows:
-// 	1) Start with a default config with sane settings
-// 	2) Pre-parse the command line to check for an alternative config file
-// 	3) Load configuration file overwriting defaults with any specified options
-// 	4) Parse CLI options and overwrite/add any specified options
+//  1. Start with a default config with sane settings
+//  2. Pre-parse the command line to check for an alternative config file
+//  3. Load configuration file overwriting defaults with any specified options
+//  4. Parse CLI options and overwrite/add any specified options
 //
 // The above results in btcd functioning properly without any config settings
 // while still allowing the user to override settings with config files and

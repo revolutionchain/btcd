@@ -12,8 +12,8 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/txscript"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // Extract takes a finalized psbt.Packet and outputs a finalized transaction

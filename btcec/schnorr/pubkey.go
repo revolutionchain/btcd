@@ -8,8 +8,8 @@ package schnorr
 import (
 	"fmt"
 
-	"github.com/qtumproject/btcd/btcec/v2"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
+	"github.com/revolutionchain/btcd/btcec/v2"
 )
 
 // These constants define the lengths of serialized public keys.

@@ -12,12 +12,12 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcec/v2/schnorr"
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/btcutil/hdkeychain"
-	"github.com/qtumproject/btcd/chaincfg"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/btcec/v2/schnorr"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil/hdkeychain"
+	"github.com/revolutionchain/btcd/chaincfg"
 	"github.com/stretchr/testify/require"
 )
 
@@ -166,8 +166,8 @@ func TestControlBlockParsing(t *testing.T) {
 // key, then generating a public key from that. This test a quickcheck test to
 // assert the following invariant:
 //
-// * taproot_tweak_pubkey(pubkey_gen(seckey), h)[1] ==
-//   pubkey_gen(taproot_tweak_seckey(seckey, h))
+//   - taproot_tweak_pubkey(pubkey_gen(seckey), h)[1] ==
+//     pubkey_gen(taproot_tweak_seckey(seckey, h))
 func TestTaprootScriptSpendTweak(t *testing.T) {
 	t.Parallel()
 

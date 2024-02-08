@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 func TestInPlaceSort(t *testing.T) {

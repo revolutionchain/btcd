@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/peer"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/peer"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

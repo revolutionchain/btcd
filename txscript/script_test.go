@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // TestPushedData ensured the PushedData function extracts the expected data out

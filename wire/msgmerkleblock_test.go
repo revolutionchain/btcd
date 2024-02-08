@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
 )
 
 // TestMerkleBlock tests the MsgMerkleBlock API.

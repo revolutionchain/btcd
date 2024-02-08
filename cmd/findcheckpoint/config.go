@@ -9,12 +9,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/database"
-	_ "github.com/qtumproject/btcd/database/ffldb"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/database"
+	_ "github.com/revolutionchain/btcd/database/ffldb"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 const (

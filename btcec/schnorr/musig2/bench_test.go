@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcec/v2/schnorr"
+	"github.com/revolutionchain/btcd/btcec/v2"
+	"github.com/revolutionchain/btcd/btcec/v2/schnorr"
 )
 
 var (

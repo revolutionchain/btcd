@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/btcutil"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
 )
 
 // TestTx tests the API for Tx.

@@ -7,14 +7,14 @@ package indexers
 import (
 	"errors"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/btcutil/gcs"
-	"github.com/qtumproject/btcd/btcutil/gcs/builder"
+	"github.com/revolutionchain/btcd/blockchain"
+	"github.com/revolutionchain/btcd/btcutil"
+	"github.com/revolutionchain/btcd/btcutil/gcs"
+	"github.com/revolutionchain/btcd/btcutil/gcs/builder"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/database"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 const (

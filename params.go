@@ -5,8 +5,8 @@
 package main
 
 import (
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/chaincfg"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

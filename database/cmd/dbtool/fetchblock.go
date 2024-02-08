@@ -9,8 +9,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/database"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/database"
 )
 
 // fetchBlockCmd defines the configuration options for the fetchblock command.

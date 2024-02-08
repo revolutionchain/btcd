@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // testNoncePrng provides a deterministic prng for the nonce in generated fake

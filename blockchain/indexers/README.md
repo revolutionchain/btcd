@@ -1,9 +1,9 @@
 indexers
 ========
 
-[![Build Status](https://github.com/qtumproject/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/actions)
+[![Build Status](https://github.com/revolutionchain/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/revolutionchain/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://pkg.go.dev/github.com/qtumproject/btcd/blockchain/indexers?status.png)](https://pkg.go.dev/github.com/qtumproject/btcd/blockchain/indexers)
+[![GoDoc](https://pkg.go.dev/github.com/revolutionchain/btcd/blockchain/indexers?status.png)](https://pkg.go.dev/github.com/revolutionchain/btcd/blockchain/indexers)
 
 Package indexers implements optional block chain indexes.
 
@@ -23,7 +23,7 @@ via an RPC interface.
 ## Installation
 
 ```bash
-$ go get -u github.com/qtumproject/btcd/blockchain/indexers
+$ go get -u github.com/revolutionchain/btcd/blockchain/indexers
 ```
 
 ## License

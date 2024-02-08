@@ -10,8 +10,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/revolutionchain/btcd/chaincfg/chainhash"
+	"github.com/revolutionchain/btcd/wire"
 )
 
 // calcHashPrevOuts calculates a single hash of all the previous outputs

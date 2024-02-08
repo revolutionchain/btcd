@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/qtumproject/btcd/btcjson"
+	"github.com/revolutionchain/btcd/btcjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

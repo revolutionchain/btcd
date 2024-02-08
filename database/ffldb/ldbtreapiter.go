@@ -5,7 +5,7 @@
 package ffldb
 
 import (
-	"github.com/qtumproject/btcd/database/internal/treap"
+	"github.com/revolutionchain/btcd/database/internal/treap"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )
