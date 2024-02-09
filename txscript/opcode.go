@@ -234,7 +234,7 @@ const (
 	OP_UNKNOWN190          = 0xbe // 190
 	OP_UNKNOWN191          = 0xbf // 191
 	OP_UNKNOWN192          = 0xc0 // 192
-	// qtum extended opcodes
+	// revo extended opcodes
 	//     OP_CREATE = 0xc1,
 	//     OP_CALL = 0xc2,
 	//     OP_SPEND = 0xc3,
@@ -592,7 +592,7 @@ var opcodeArray = [256]opcode{
 
 	OP_INVALIDOPCODE: {OP_INVALIDOPCODE, "OP_INVALIDOPCODE", 1, opcodeInvalid},
 
-	// qtum extended opcodes
+	// revo extended opcodes
 	//     OP_CREATE = 0xc1,
 	//     OP_CALL = 0xc2,
 	//     OP_SPEND = 0xc3,
