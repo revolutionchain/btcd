@@ -270,32 +270,35 @@ type Params struct {
 	HDCoinType uint32
 }
 
-// ! *** Added for Qtum project support ***
-var QtumMainnetParams = Params{
-	Name:             "qtum",
-	Net:              wire.QtumMainnet,
-	DefaultPort:      "3889",
-	PubKeyHashAddrID: 0x3a,
+// ! *** Added for Revo project support ***
+var RevoMainnetParams = Params{
+	Name:             "revo",
+	Net:              wire.RevoMainnet,
+	DefaultPort:      "7878",
+	PubKeyHashAddrID: 0x3c,
 	ScriptHashAddrID: 0x32,
 	PrivateKeyID:     0x80,
+	Bech32HRPSegwit:  "rv",
 }
 
-var QtumTestnetParams = Params{
-	Name:             "qtum",
-	Net:              wire.QtumTestnet,
-	DefaultPort:      "13889",
-	PubKeyHashAddrID: 0x78,
-	ScriptHashAddrID: 0x6e,
-	PrivateKeyID:     0xEF,
+var RevoTestnetParams = Params{
+	Name:             "revo",
+	Net:              wire.RevoTestnet,
+	DefaultPort:      "17878",
+	PubKeyHashAddrID: 0x41,
+	ScriptHashAddrID: 0x32,
+	PrivateKeyID:     0x80,
+	Bech32HRPSegwit:  "tr",
 }
 
-var QtumRegtestParams = Params{
-	Name:             "qtum",
-	Net:              wire.QtumRegtest,
-	DefaultPort:      "13889",
-	PubKeyHashAddrID: 0x78,
-	ScriptHashAddrID: 0x6e,
-	PrivateKeyID:     0xEF,
+var RevoRegtestParams = Params{
+	Name:             "revo",
+	Net:              wire.RevoRegtest,
+	DefaultPort:      "37878",
+	PubKeyHashAddrID: 0x3c,
+	ScriptHashAddrID: 0x32,
+	PrivateKeyID:     0x80,
+	Bech32HRPSegwit:  "rv",
 }
 
 //! ***************************
